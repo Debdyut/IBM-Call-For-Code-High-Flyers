@@ -1,0 +1,188 @@
+[
+   {
+      "key":"How old are you?",
+      "value":[
+         "12",
+         "59",
+         "100"
+      ],
+      "score":[
+         "6",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"Do you have any pre-existing condition?",
+      "value":[
+         "no",
+         "yes",
+         "NA"
+      ],
+      "score":[
+         "6",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"When do you usually feel hungry?",
+      "value":[
+         "4 hrs after the previous meal",
+         "Less than 3 hrs after the previous meal",
+         "Do not feel hungry"
+      ],
+      "score":[
+         "6",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"How often do you have diarrhoea, gas or constipation?",
+      "value":[
+         "Rarely",
+         "Sometimes",
+         "Frequently"
+      ],
+      "score":[
+         "6",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"Do you face difficulty sleeping?",
+      "value":[
+         "Rarely",
+         "Sometimes",
+         "Frequently"
+      ],
+      "score":[
+         "6",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"Do you get restless or agitated?",
+      "value":[
+         "Rarely",
+         "Sometimes",
+         "Almost everyday"
+      ],
+      "score":[
+         "6",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"Do you still feel exhausted after getting enough sleep?",
+      "value":[
+         "No",
+         "On and off",
+         "Exhausted all the time"
+      ],
+      "score":[
+         "6",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"How often do you catch cold/flu?",
+      "value":[
+         "No",
+         "On and off",
+         "Exhausted all the time"
+      ],
+      "score":[
+         "6",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"How long does it take for you to recover from flu or cold?",
+      "value":[
+         "5 days",
+         "7 days",
+         "10 days",
+         "14 days"
+      ],
+      "score":[
+         "6",
+         "5",
+         "3",
+         "1"
+      ]
+   },
+   {
+      "key":"Do you have any body itch/allergies?",
+      "value":[
+         "No",
+         "Sometimes",
+         "Often",
+         "Severe"
+      ],
+      "score":[
+         "6",
+         "5",
+         "3",
+         "1"
+      ]
+   },
+   {
+      "key":"Have you been back to your doctor for treatment of a problem with your wound?",
+      "value":[
+         "No",
+         "Yes"
+      ],
+      "score":[
+         "6",
+         "5"
+      ]
+   },
+   {
+      "key":"Do you suffer from recurrent or usual infections?",
+      "value":[
+         "Rarely",
+         "Sometimes",
+         "Frequently"
+      ],
+      "score":[
+         "6",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"How often do you use antibiotic?",
+      "value":[
+         "Rarely",
+         "Sometimes when problem persist",
+         "Every time I got sickEdit"
+      ],
+      "score":[
+         "6",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"Think carefully and select the activity that, if you performed, would typically cause fatigue, shortness of breath, chest discomfort, or otherwise cause you to want to stop",
+      "value":[
+         "After intensive workout for 30 mins or more",
+         "Jogging or 10 mins or walking uphill for 15 mins",
+         "Brisk walk or moderate mount of household work for 5 mins",
+         "None"
+      ],
+      "score":[
+         "6",
+         "5",
+         "4",
+         "3"
+      ]
+   }
+]

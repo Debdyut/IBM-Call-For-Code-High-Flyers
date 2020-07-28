@@ -1,0 +1,58 @@
+[
+   {
+      "question":"How old are you?",
+      "answer":"12"
+   },
+   {
+      "question":"Do you have any pre-existing condition?",
+      "answer":"no"
+   },
+   {
+      "question":"When do you usually feel hungry?",
+      "answer":"4 hrs after the previous meal"
+   },
+   {
+      "question":"How often do you have diarrhoea, gas or constipation?",
+      "answer":"Rarely"
+   },
+   {
+      "question":"Do you face difficulty sleeping?",
+      "answer":"Rarely"
+   },
+   {
+      "question":"Do you get restless or agitated?",
+      "answer":"Rarely"
+   },
+   {
+      "question":"Do you still feel exhausted after getting enough sleep?",
+      "answer":"No"
+   },
+   {
+      "question":"How often do you catch cold/flu?",
+      "answer":"No"
+   },
+   {
+      "question":"How long does it take for you to recover from flu or cold?",
+      "answer":"5 days"
+   },
+   {
+      "question":"Do you have any body itch/allergies?",
+      "answer":"No"
+   },
+   {
+      "question":"Have you been back to your doctor for treatment of a problem with your wound?",
+      "answer":"No"
+   },
+   {
+      "question":"Do you suffer from recurrent or usual infections?",
+      "answer":"Rarely"
+   },
+   {
+      "question":"How often do you use antibiotic?",
+      "answer":"Rarely"
+   },
+   {
+      "question":"Think carefully and select the activity that, if you performed, would typically cause fatigue, shortness of breath, chest discomfort, or otherwise cause you to want to stop",
+      "answer":"After intensive workout for 30 mins or more"
+   }
+]

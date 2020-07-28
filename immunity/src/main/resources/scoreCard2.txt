@@ -1,0 +1,188 @@
+[
+   {
+      "key":"q1",
+      "value":[
+         "Less than 12 years",
+         "Less than 60 years",
+         "More than 60 years"
+      ],
+      "score":[
+         "7",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"q2",
+      "value":[
+         "no",
+         "yes",
+         "na"
+      ],
+      "score":[
+         "7",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"q3",
+      "value":[
+         "4 hrs after the previous meal",
+         "Less than 3 hrs after the previous meal",
+         "Do not feel hungry"
+      ],
+      "score":[
+         "6",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"q4",
+      "value":[
+         "Rarely",
+         "Sometimes",
+         "Frequently"
+      ],
+      "score":[
+         "7",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"q5",
+      "value":[
+         "Rarely",
+         "Sometimes",
+         "Frequently"
+      ],
+      "score":[
+         "7",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"q6",
+      "value":[
+         "Rarely",
+         "Sometimes",
+         "Almost everyday"
+      ],
+      "score":[
+         "7",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"q7",
+      "value":[
+         "No",
+         "On and off",
+         "Exhausted all the time"
+      ],
+      "score":[
+         "7",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"q8",
+      "value":[
+         "No",
+         "On and off",
+         "Exhausted all the time"
+      ],
+      "score":[
+         "7",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"q9",
+      "value":[
+         "5 days",
+         "7 days",
+         "10 days",
+         "14 days"
+      ],
+      "score":[
+         "7",
+         "5",
+         "3",
+         "1"
+      ]
+   },
+   {
+      "key":"q10",
+      "value":[
+         "No",
+         "Sometimes",
+         "Often",
+         "Severe"
+      ],
+      "score":[
+         "7",
+         "5",
+         "3",
+         "1"
+      ]
+   },
+   {
+      "key":"q11",
+      "value":[
+         "No",
+         "Yes"
+      ],
+      "score":[
+         "7",
+         "5"
+      ]
+   },
+   {
+      "key":"q12",
+      "value":[
+         "Rarely",
+         "Sometimes",
+         "Frequently"
+      ],
+      "score":[
+         "7",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"q13",
+      "value":[
+         "Rarely",
+         "Sometimes when problem persist",
+         "Every time I got sickEdit"
+      ],
+      "score":[
+         "7",
+         "5",
+         "3"
+      ]
+   },
+   {
+      "key":"q14",
+      "value":[
+         "After intensive workout for 30 mins or more",
+         "Jogging or 10 mins or walking uphill for 15 mins",
+         "Brisk walk or moderate mount of household work for 5 mins",
+         "None"
+      ],
+      "score":[
+         "7",
+         "5",
+         "4",
+         "3"
+      ]
+   }
+]
