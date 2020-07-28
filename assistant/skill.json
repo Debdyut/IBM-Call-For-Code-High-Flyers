@@ -1,0 +1,4115 @@
+{
+  "intents": [
+    {
+      "intent": "RegisterDonor",
+      "examples": [
+        {
+          "text": "register plasma donor"
+        },
+        {
+          "text": "plasma donor"
+        },
+        {
+          "text": "enlist"
+        },
+        {
+          "text": "enlist donor"
+        },
+        {
+          "text": "signup donor"
+        },
+        {
+          "text": "register"
+        },
+        {
+          "text": "register donor"
+        }
+      ],
+      "description": "Register donor"
+    },
+    {
+      "intent": "immunity",
+      "examples": [
+        {
+          "text": "Sandip Bhattacharjee"
+        },
+        {
+          "text": "defend against covid"
+        },
+        {
+          "text": "immunity booster"
+        },
+        {
+          "text": "improve immunity"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "collect_name",
+      "examples": [
+        {
+          "text": "cristiano ronaldo",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dwaraka nath tagore",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "lionel messi",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Bob Smith",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dan",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "kim banks",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is anisha",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is sukanta chatterjee",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "people call me Bob Dylan",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                15,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "bob dylan is the name",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "bob dylan it is",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "rabindranath tagore, okay",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "nezami",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "sandip bhattacharjee",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "sarthak sen",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "arunava tah",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "achintya mondal",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "andrew garfield",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "nezami shams",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "sk Kalim",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "abhishek jana",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "shanku",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "michael collins",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "saurav ganguly",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "karim benzema",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is dan",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                11,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "prasanth delhi bau",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "sankhajit ghosh",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "people call me Rajnikant",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                15,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "emma watson",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "angel de maria",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "debdyut hajra",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "rivaldo",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "anirban saha",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "mrinmoy sarkar",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "rajesh bhattacharjee",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "gareth bale",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "shah rukh khan",
+          "mentions": [
+            {
+              "entity": "person_name",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Get user's name"
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "hi"
+        },
+        {
+          "text": "hello"
+        }
+      ],
+      "description": "Greetings"
+    },
+    {
+      "intent": "ExitFlow",
+      "examples": [
+        {
+          "text": "menu"
+        },
+        {
+          "text": "skip"
+        },
+        {
+          "text": "startover"
+        },
+        {
+          "text": "start over"
+        },
+        {
+          "text": "exit"
+        },
+        {
+          "text": "game over"
+        },
+        {
+          "text": "restart"
+        },
+        {
+          "text": "main menu"
+        },
+        {
+          "text": "stop"
+        }
+      ],
+      "description": "To exit the current flow"
+    },
+    {
+      "intent": "mentalhealth",
+      "examples": [
+        {
+          "text": "mental condition"
+        },
+        {
+          "text": "depression"
+        },
+        {
+          "text": "mental state"
+        },
+        {
+          "text": "mental health"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "landmark",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "grand central",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "times square",
+          "synonyms": [
+            "times sqaure",
+            "time square",
+            "time sqaure"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "empire state building",
+          "synonyms": [
+            "emprire state",
+            "empire state"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-person",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "mentalHealthAnswer",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Nearly every day",
+          "synonyms": [
+            "Nearly every day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Not at all",
+          "synonyms": [
+            "Not at all"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "More than half the days",
+          "synonyms": [
+            "More than half the days"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Several days",
+          "synonyms": [
+            "Several days"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "donor_email",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yep",
+            "you betcha",
+            "you bet",
+            "yes",
+            "yeah",
+            "why not",
+            "sure",
+            "please",
+            "ok",
+            "let's do it",
+            "go for it",
+            "definitely"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "unsure",
+          "synonyms": [
+            "uncertain",
+            "undecided",
+            "confused",
+            "unclear",
+            "puzzled",
+            "don't know",
+            "not sure"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "not now",
+            "not at this time",
+            "nope",
+            "i think not",
+            "dont think so",
+            "don't think so",
+            "definitely not"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "menu",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "donate plasma",
+          "synonyms": [
+            "plasma"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mental health",
+          "synonyms": [
+            "mental"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "improve immunity",
+          "synonyms": [
+            "immunity"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "coronavirus",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "coronavirus",
+          "synonyms": [
+            "corona",
+            "virus check",
+            "virus",
+            "COVID-19",
+            "COVID",
+            "coronavirus",
+            "corona-virus",
+            "carona-virus",
+            "Carona",
+            "Korona",
+            "Korona-virus",
+            "COVID19"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "phone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Indian phone pattern",
+          "patterns": [
+            "(\\d{10})"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "US Phone pattern",
+          "patterns": [
+            "(\\d{3})-(\\d{3})-(\\d{4})"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "person_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "anirban saha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sk Kalim",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shanku",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "saurav ganguly",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sarthak sen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sankhajit ghosh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sandip bhattacharjee",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cristiano ronaldo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rajesh bhattacharjee",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mrinmoy sarkar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lionel messi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "karim benzema",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "emma watson",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "debdyut hajra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "arunava tah",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rivaldo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nezami shams",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nezami",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "angel de maria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "michael collins",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dwaraka nath tagore",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "gareth bale",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shah rukh khan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "prasanth delhi bau",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bob Smith",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kim banks",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bob dylan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "anisha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sukanta chatterjee",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rajnikant",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rabindranath tagore",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "abhishek jana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "achintya mondal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "andrew garfield",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "male",
+          "synonyms": [
+            "male",
+            "boy",
+            "man",
+            "guy",
+            "boys",
+            "men",
+            "dude",
+            "kid",
+            "males",
+            "lad",
+            "gentleman",
+            "fella"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "female",
+          "synonyms": [
+            "females",
+            "woman",
+            "women",
+            "girl",
+            "femmes",
+            "feminine",
+            "wife",
+            "girls",
+            "lady",
+            "femme",
+            "womens"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-location",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "school_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "preschool",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "middle school",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "college",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "grade school",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "high school",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "immunityReply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "10 days",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "na",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Less than 60 years",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Less than 3 hrs after the previous meal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Less than 12 years",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jogging or 10 mins or walking uphill for 15 mins",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Frequently",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Every time I got sick",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brisk walk or moderate mount of household work for 5 mins",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Severe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Often",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sometimes when problem persist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sometimes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rarely",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Do not feel hungry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "7 days",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "5 days",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4 hrs after the previous meal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14 days",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "More than 60 years",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "On and off",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "None",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Exhausted all the time",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Almost everyday",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "After intensive workout for 30 mins or more",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "zip_code",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "@sys-number",
+          "patterns": [
+            "(\\b|\\s)\\d{5}(\\b|\\s)"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/iamangel2100%40gmail.com_dev/default/call-for-code.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "mentalQ2",
+      "output": {
+        "generic": [
+          {
+            "title": "Q2. How often have you been bothered by Feeling down, depressed or hopeless?",
+            "options": [
+              {
+                "label": "Not at all",
+                "value": {
+                  "input": {
+                    "text": "Not at all"
+                  }
+                }
+              },
+              {
+                "label": "Several days",
+                "value": {
+                  "input": {
+                    "text": "Several days"
+                  }
+                }
+              },
+              {
+                "label": "More than half the days",
+                "value": {
+                  "input": {
+                    "text": "More than half the days"
+                  }
+                }
+              },
+              {
+                "label": "Nearly every day",
+                "value": {
+                  "input": {
+                    "text": "Nearly every day"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1595692024084",
+      "context": {
+        "A1": "@mentalHealthAnswer.literal",
+        "Q1": "How often have you been bothered by Little interest or pleasure in doing things?"
+      },
+      "conditions": "@mentalHealthAnswer",
+      "dialog_node": "node_8_1594730258049",
+      "previous_sibling": "response_5_1594736335232"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Q1. How often have you been bothered by Little interest or pleasure in doing things. Is it Not at all, Several days, More than half the days, Nearly every day?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1595692024084",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1594736335232"
+    },
+    {
+      "type": "standard",
+      "title": "mentalQ9",
+      "output": {
+        "generic": [
+          {
+            "title": "Q9. How often have you been bothered by Thoughts that you would be better of dead or of hurting yourself?",
+            "options": [
+              {
+                "label": "Not at all",
+                "value": {
+                  "input": {
+                    "text": "Not at all"
+                  }
+                }
+              },
+              {
+                "label": "Several days",
+                "value": {
+                  "input": {
+                    "text": "Several days"
+                  }
+                }
+              },
+              {
+                "label": "More than half the days",
+                "value": {
+                  "input": {
+                    "text": "More than half the days"
+                  }
+                }
+              },
+              {
+                "label": "Nearly every day",
+                "value": {
+                  "input": {
+                    "text": "Nearly every day"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1594731956611",
+      "context": {
+        "A8": "@mentalHealthAnswer.literal",
+        "Q8": "How often have you been bothered by Moving or speaking so slowly that other people could have noticed? Or the opposite being so fidgety or restless that you have been moving around a lot more than usual?"
+      },
+      "conditions": "@mentalHealthAnswer",
+      "dialog_node": "node_9_1594731984934"
+    },
+    {
+      "type": "standard",
+      "title": "Register Donor",
+      "parent": "node_2_1595041361249",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#RegisterDonor",
+      "dialog_node": "node_4_1594805933183"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please re-enter your email."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595000370089",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1594931621254"
+      },
+      "conditions": "@reply:no",
+      "dialog_node": "response_7_1595000370095",
+      "previous_sibling": "response_6_1595000370095"
+    },
+    {
+      "type": "standard",
+      "title": "Get phone number",
+      "output": {
+        "generic": [
+          {
+            "title": "Your phone number is $phone. Is that right?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1595000370089",
+      "context": {
+        "phone": "@phone.literal"
+      },
+      "conditions": "@phone",
+      "dialog_node": "node_2_1595000370095",
+      "previous_sibling": "response_7_1595000370095"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. Please provide your phone number."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595000370089",
+      "conditions": "@reply:yes",
+      "dialog_node": "response_6_1595000370095",
+      "previous_sibling": "slot_3_1595000370095"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1595000370089",
+      "variable": "$email_id",
+      "dialog_node": "slot_3_1595000370095"
+    },
+    {
+      "type": "standard",
+      "title": "mentalQ1",
+      "output": {
+        "generic": [
+          {
+            "title": "Q1. How often have you been bothered by Little interest or pleasure in doing things?",
+            "options": [
+              {
+                "label": "Not at all",
+                "value": {
+                  "input": {
+                    "text": "Not at all"
+                  }
+                }
+              },
+              {
+                "label": "Several days",
+                "value": {
+                  "input": {
+                    "text": "Several days"
+                  }
+                }
+              },
+              {
+                "label": "More than half the days",
+                "value": {
+                  "input": {
+                    "text": "More than half the days"
+                  }
+                }
+              },
+              {
+                "label": "Nearly every day",
+                "value": {
+                  "input": {
+                    "text": "Nearly every day"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1595692013979",
+      "context": {},
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "action": "test"
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@menu:(mental health)",
+      "dialog_node": "node_3_1595692024084"
+    },
+    {
+      "type": "standard",
+      "title": "Age",
+      "output": {
+        "generic": [
+          {
+            "title": "What is your age?",
+            "options": [
+              {
+                "label": "Less than 12 years",
+                "value": {
+                  "input": {
+                    "text": "Less than 12 years"
+                  }
+                }
+              },
+              {
+                "label": "Less than 60 years",
+                "value": {
+                  "input": {
+                    "text": "Less than 60 years"
+                  }
+                }
+              },
+              {
+                "label": "More than 60 years",
+                "value": {
+                  "input": {
+                    "text": "More than 60 years"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1595689396148",
+      "conditions": "@menu:(improve immunity)",
+      "dialog_node": "node_5_1595689891506"
+    },
+    {
+      "type": "standard",
+      "title": "Do you face difficulty sleeping?",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you face difficulty sleeping?",
+            "options": [
+              {
+                "label": "Rarely",
+                "value": {
+                  "input": {
+                    "text": "Rarely"
+                  }
+                }
+              },
+              {
+                "label": "Sometimes",
+                "value": {
+                  "input": {
+                    "text": "Sometimes"
+                  }
+                }
+              },
+              {
+                "label": "Frequently",
+                "value": {
+                  "input": {
+                    "text": "Frequently"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1595169720002",
+      "context": {
+        "constipation": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_1_1595222287466"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1595246491503",
+      "conditions": "@immunityReply:no",
+      "dialog_node": "node_4_1595691189163",
+      "previous_sibling": "node_2_1595325244303"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "parent": "node_7_1595246491503",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "q1": "$age",
+            "q2": "$pre_existing_cond",
+            "q3": "$feel_hungry",
+            "q4": "$constipation",
+            "q5": "$sleeping",
+            "q6": "$agitated",
+            "q7": "$enough_sleep",
+            "q8": "$cold_flu",
+            "q9": "$recover_flu",
+            "q10": "$body_itch",
+            "q11": "$wound_treatment",
+            "q12": "$usual_infection",
+            "q13": "$use_antibiotic",
+            "q14": "$fatigue",
+            "type": "immunity"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@immunityReply:yes",
+      "dialog_node": "node_2_1595325244303"
+    },
+    {
+      "type": "standard",
+      "title": "Have you been back to your doctor for treatment of a problem with your wound?",
+      "output": {
+        "generic": [
+          {
+            "title": "Have you been back to your doctor for treatment of a problem with your wound?",
+            "options": [
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              },
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1595245142884",
+      "context": {
+        "body_itch": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_4_1595245291455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oops. Please re-enter your blood group."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595655908919",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_20_1595042929173"
+      },
+      "conditions": "@reply:no",
+      "dialog_node": "response_1_1595656001330",
+      "previous_sibling": "response_2_1595655968948"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter your blood group."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595655908919",
+      "conditions": "@reply:yes",
+      "dialog_node": "response_2_1595655968948",
+      "previous_sibling": "node_2_1595656491136"
+    },
+    {
+      "type": "standard",
+      "title": "Validate Blood Group",
+      "output": {
+        "generic": [
+          {
+            "title": "Is your blood group $blood_group?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1595655908919",
+      "context": {
+        "blood_group": "<? input.text ?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1595656491136"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. Can you please provide a rough date of last symptom?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1595043262847",
+      "disabled": true,
+      "conditions": "$donor_reply_options",
+      "dialog_node": "response_29_1595043262856",
+      "previous_sibling": "slot_26_1595043262856"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_25_1595043262847",
+      "variable": "$follow_up_test",
+      "dialog_node": "slot_26_1595043262856",
+      "previous_sibling": "node_20_1595042929173"
+    },
+    {
+      "type": "frame",
+      "title": "Validate last date of symptom",
+      "parent": "node_25_1595043262847",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sys-date",
+      "dialog_node": "node_20_1595042929173"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please confirm if follow up test done."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_26_1595043262856",
+      "event_name": "focus",
+      "dialog_node": "handler_28_1595043262856",
+      "previous_sibling": "handler_27_1595043262856"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_26_1595043262856",
+      "context": {
+        "follow_up_test": "@reply"
+      },
+      "conditions": "@reply",
+      "event_name": "input",
+      "dialog_node": "handler_27_1595043262856"
+    },
+    {
+      "type": "frame",
+      "title": "Any symptoms in last 14 days?",
+      "output": {},
+      "parent": "node_2_1595041661416",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply",
+      "dialog_node": "node_8_1595042194853"
+    },
+    {
+      "type": "standard",
+      "title": "mentalQ11",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Email Id of him/her"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1595541225470",
+      "context": {
+        "A10": "<? input.text ?>",
+        "Q10": "Name of your friend/family/colleague whom you would reach out to in case you face problem?"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1595542054726"
+    },
+    {
+      "type": "standard",
+      "title": "mentalQ3",
+      "output": {
+        "generic": [
+          {
+            "title": "Q3. How often have you been bothered by Trouble falling or staying asleep, or sleeping too much?",
+            "options": [
+              {
+                "label": "Not at all",
+                "value": {
+                  "input": {
+                    "text": "Not at all"
+                  }
+                }
+              },
+              {
+                "label": "Several days",
+                "value": {
+                  "input": {
+                    "text": "Several days"
+                  }
+                }
+              },
+              {
+                "label": "More than half the days",
+                "value": {
+                  "input": {
+                    "text": "More than half the days"
+                  }
+                }
+              },
+              {
+                "label": "Nearly every day",
+                "value": {
+                  "input": {
+                    "text": "Nearly every day"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1594730258049",
+      "context": {
+        "A2": "@mentalHealthAnswer.literal",
+        "Q2": "How often have you been bothered by Feeling down, depressed or hopeless?"
+      },
+      "conditions": "@mentalHealthAnswer",
+      "dialog_node": "node_10_1594730557953"
+    },
+    {
+      "type": "frame",
+      "title": "Validate phone number",
+      "output": {},
+      "parent": "node_2_1595000370095",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply || anything_else",
+      "dialog_node": "node_9_1595044274875"
+    },
+    {
+      "type": "standard",
+      "title": "How often do you catch cold/flu?",
+      "output": {
+        "generic": [
+          {
+            "title": "How often do you catch cold/flu?",
+            "options": [
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              },
+              {
+                "label": "On and off",
+                "value": {
+                  "input": {
+                    "text": "On and off"
+                  }
+                }
+              },
+              {
+                "label": "Exhausted all the time",
+                "value": {
+                  "input": {
+                    "text": "Exhausted all the time"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1595223246272",
+      "context": {
+        "enough_sleep": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_10_1595328062652"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please confirm if any symptoms were observed in last 14 days?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_16_1595042669869",
+      "event_name": "focus",
+      "dialog_node": "handler_18_1595042669869",
+      "previous_sibling": "handler_17_1595042669869"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_16_1595042669869",
+      "context": {
+        "recent_symptoms": "@reply"
+      },
+      "conditions": "@reply",
+      "event_name": "input",
+      "dialog_node": "handler_17_1595042669869"
+    },
+    {
+      "type": "standard",
+      "title": "mentalQ12",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tell us your name"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1595542054726",
+      "context": {
+        "A11": "<? input.text ?>",
+        "Q11": "Email Id of him/her"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1595542442768"
+    },
+    {
+      "type": "frame",
+      "title": "Validate Email",
+      "output": {},
+      "parent": "node_2_1594931621254",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply || anything_else",
+      "dialog_node": "node_1_1595000370089"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "60"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1595325244303",
+      "dialog_node": "response_1_1595691162860",
+      "previous_sibling": "response_1_1595325346545"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_1.status  $webhook_result_1.suggetion"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1595325244303",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_1_1595325346545"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please re-enter your city name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595133735522",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1595044274899"
+      },
+      "conditions": "@reply:no",
+      "dialog_node": "response_4_1595133735528",
+      "previous_sibling": "response_3_1595133735528"
+    },
+    {
+      "type": "standard",
+      "title": "Get donor gender",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks just 4 four simple questions to complete your registration as a donor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595133735522",
+      "context": {
+        "gender": "@gender"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1595041661416"
+      },
+      "conditions": "@gender",
+      "dialog_node": "node_2_1595133735528",
+      "previous_sibling": "response_4_1595133735528"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Got it. What is your gender?",
+            "options": [
+              {
+                "label": "Male",
+                "value": {
+                  "input": {
+                    "text": "male"
+                  }
+                }
+              },
+              {
+                "label": "Female",
+                "value": {
+                  "input": {
+                    "text": "female"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1595133735522",
+      "conditions": "@reply:yes",
+      "dialog_node": "response_3_1595133735528"
+    },
+    {
+      "type": "standard",
+      "title": "mentalQ4",
+      "output": {
+        "generic": [
+          {
+            "title": "Q4. How often have you been bothered by Feeling tired or having no energy?",
+            "options": [
+              {
+                "label": "Not at all",
+                "value": {
+                  "input": {
+                    "text": "Not at all"
+                  }
+                }
+              },
+              {
+                "label": "Several days",
+                "value": {
+                  "input": {
+                    "text": "Several days"
+                  }
+                }
+              },
+              {
+                "label": "More than half the days",
+                "value": {
+                  "input": {
+                    "text": "More than half the days"
+                  }
+                }
+              },
+              {
+                "label": "Nearly every day",
+                "value": {
+                  "input": {
+                    "text": "Nearly every day"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1594730557953",
+      "context": {
+        "A3": "@mentalHealthAnswer.literal",
+        "Q3": "How often have you been bothered by Trouble falling or staying asleep, or sleeping too much?"
+      },
+      "conditions": "@mentalHealthAnswer",
+      "dialog_node": "node_1_1594731745329"
+    },
+    {
+      "type": "standard",
+      "title": "doNothing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you, please talk with your friends"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1595053017315",
+      "conditions": "@reply:no",
+      "dialog_node": "node_5_1595053460669",
+      "previous_sibling": "node_3_1595053408338"
+    },
+    {
+      "type": "standard",
+      "title": "callMentalHealthRest",
+      "parent": "node_2_1595053017315",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "A1": "$A1",
+            "A2": "$A2",
+            "A3": "$A3",
+            "A4": "$A4",
+            "A5": "$A5",
+            "A6": "$A6",
+            "A7": "$A7",
+            "A8": "$A8",
+            "A9": "$A9",
+            "Q1": "$Q1",
+            "Q2": "$Q2",
+            "Q3": "$Q3",
+            "Q4": "$Q4",
+            "Q5": "$Q5",
+            "Q6": "$Q6",
+            "Q7": "$Q7",
+            "Q8": "$Q8",
+            "Q9": "$Q9",
+            "A10": "$A10",
+            "A11": "$A11",
+            "A12": "$A12",
+            "Q10": "$Q10",
+            "Q11": "$Q11",
+            "Q12": "$Q12",
+            "type": "depression"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_3_1595053408338"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Got it. Please provide your email id."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594931621249",
+      "conditions": "@reply:yes",
+      "dialog_node": "response_6_1594931621254",
+      "previous_sibling": "slot_2_1595133069774"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please re-enter your date of birth."
+              },
+              {
+                "text": "Oh, okay. Please enter your date of birth again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594931621249",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1594810682413"
+      },
+      "conditions": "@reply:no",
+      "dialog_node": "response_7_1594931621254",
+      "previous_sibling": "response_6_1594931621254"
+    },
+    {
+      "type": "standard",
+      "title": "Get donor email id",
+      "output": {
+        "generic": [
+          {
+            "title": "Is your email id  $email_id?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1594931621249",
+      "context": {
+        "email_id": "@email.literal"
+      },
+      "conditions": "@email:donor_email",
+      "dialog_node": "node_2_1594931621254",
+      "previous_sibling": "response_7_1594931621254"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1594931621249",
+      "variable": "$confirmation_dob",
+      "dialog_node": "slot_2_1595133069774"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please provide your last date of symptom."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_21_1595042929181",
+      "event_name": "focus",
+      "dialog_node": "handler_23_1595042929181",
+      "previous_sibling": "handler_22_1595042929181"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_21_1595042929181",
+      "context": {
+        "last_date_symptom": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_22_1595042929181"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oops. Please try by re-entering your name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1594805933183",
+      "conditions": "@reply:no",
+      "dialog_node": "response_4_1594930453614",
+      "previous_sibling": "response_9_1594930441016"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oops. Please try by re-entering your name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1594805933183",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1594930934051",
+      "previous_sibling": "response_4_1594930453614"
+    },
+    {
+      "type": "standard",
+      "title": "Get donor name",
+      "parent": "node_4_1594805933183",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#collect_name || anything_else || #ExitFlow",
+      "dialog_node": "node_8_1594808794491",
+      "previous_sibling": "response_1_1594930934051"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for volunteering. Please start by providing your name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1594805933183",
+      "context": {},
+      "conditions": "#RegisterDonor",
+      "dialog_node": "response_9_1594930441016"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry what was that. Try answering in yes or no."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1595133069774",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1595133069778",
+      "previous_sibling": "handler_7_1595133069778"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1595133069774",
+      "context": {
+        "confirmation_dob": "@reply"
+      },
+      "conditions": "@reply",
+      "event_name": "input",
+      "dialog_node": "handler_7_1595133069778"
+    },
+    {
+      "type": "standard",
+      "title": "mentalQ10",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Name of your friend/family/colleague whom you would reach out to in case you face a problem?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1594731984934",
+      "context": {
+        "A9": "@mentalHealthAnswer.literal",
+        "Q9": "How often have you been bothered by Thoughts that you would be better of dead or of hurting yourself?"
+      },
+      "conditions": "@mentalHealthAnswer",
+      "dialog_node": "node_10_1595541225470"
+    },
+    {
+      "type": "standard",
+      "title": "Save data to DB",
+      "parent": "node_2_1595656491136",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "dob": "$date_of_birth",
+            "type": "saveDonorData",
+            "phone": "$phone",
+            "gender": "$gender",
+            "emailId": "$email_id",
+            "location": "$city",
+            "bloodGroup": "$blood_group",
+            "personName": "$person_name",
+            "isLabTestDone": "$lab_test_reply",
+            "lastDateOfSymptom": "$last_date_symptom",
+            "haveRecentSymptoms": "$recent_symptoms",
+            "isFollowUpTestDone": "$follow_up_test"
+          },
+          "result_variable": "donor_data_saved"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply",
+      "dialog_node": "node_4_1595136036867"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_15_1595042669863",
+      "variable": "$recent_symptoms",
+      "dialog_node": "slot_16_1595042669869",
+      "previous_sibling": "node_25_1595043262847"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Have you had a follow up test that was negative for COVID-19 or shows you no longer have COVID-19? ",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_15_1595042669863",
+      "conditions": "@reply",
+      "dialog_node": "response_19_1595042669869",
+      "previous_sibling": "slot_16_1595042669869"
+    },
+    {
+      "type": "frame",
+      "title": "Last date of symptom?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. Can you please provide a rough date of last symptom?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_15_1595042669863",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@reply",
+      "dialog_node": "node_25_1595043262847"
+    },
+    {
+      "type": "standard",
+      "title": "Do you suffer from recurrent or usual infections?",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you suffer from recurrent or usual infections?",
+            "options": [
+              {
+                "label": "Rarely",
+                "value": {
+                  "input": {
+                    "text": "Rarely"
+                  }
+                }
+              },
+              {
+                "label": "Sometimes",
+                "value": {
+                  "input": {
+                    "text": "Sometimes"
+                  }
+                }
+              },
+              {
+                "label": "Frequently",
+                "value": {
+                  "input": {
+                    "text": "Frequently"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1595245291455",
+      "context": {
+        "wound_treatment": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_7_1595245489729"
+    },
+    {
+      "type": "frame",
+      "title": "Validate donor city",
+      "output": {},
+      "parent": "node_10_1595044274899",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply || anything_else",
+      "dialog_node": "node_1_1595133735522"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_4_1595136036867",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1595136070930",
+      "previous_sibling": "response_1_1595136068779"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$donor_data_saved.result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1595136036867",
+      "conditions": "$donor_data_saved",
+      "dialog_node": "response_1_1595136068779"
+    },
+    {
+      "type": "standard",
+      "title": "mentalQ8",
+      "output": {
+        "generic": [
+          {
+            "title": "Q8. How often have you been bothered by Moving or speaking so slowly that other people could have noticed? Or the opposite being so fidgety or restless that you have been moving around a lot more than usual?",
+            "options": [
+              {
+                "label": "Not at all",
+                "value": {
+                  "input": {
+                    "text": "Not at all"
+                  }
+                }
+              },
+              {
+                "label": "Several days",
+                "value": {
+                  "input": {
+                    "text": "Several days"
+                  }
+                }
+              },
+              {
+                "label": "More than half the days",
+                "value": {
+                  "input": {
+                    "text": "More than half the days"
+                  }
+                }
+              },
+              {
+                "label": "Nearly every day",
+                "value": {
+                  "input": {
+                    "text": "Nearly every day"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1594731913887",
+      "context": {
+        "A7": "@mentalHealthAnswer.literal",
+        "Q7": "How often have you been bothered by Trouble concentrating on things, such as reading the newspaper or watching television?"
+      },
+      "conditions": "@mentalHealthAnswer",
+      "dialog_node": "node_9_1594731956611"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please confirm if Covid-19 was confirmed by lab test. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1595042264044",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1595042264049",
+      "previous_sibling": "handler_7_1595042264049"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1595042264044",
+      "context": {
+        "lab_test_reply": "@reply"
+      },
+      "conditions": "@reply",
+      "event_name": "input",
+      "dialog_node": "handler_7_1595042264049"
+    },
+    {
+      "type": "standard",
+      "title": "How often do you use antibiotic?",
+      "output": {
+        "generic": [
+          {
+            "title": "How often do you use antibiotic?",
+            "options": [
+              {
+                "label": "Rarely",
+                "value": {
+                  "input": {
+                    "text": "Rarely"
+                  }
+                }
+              },
+              {
+                "label": "Sometimes when problem persist",
+                "value": {
+                  "input": {
+                    "text": "Sometimes when problem persist"
+                  }
+                }
+              },
+              {
+                "label": "Every time I got sick",
+                "value": {
+                  "input": {
+                    "text": "Every time I got sick"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1595245489729",
+      "context": {
+        "usual_infection": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_6_1595245638571"
+    },
+    {
+      "type": "standard",
+      "title": "Do you get restless or agitated?",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you get restless or agitated?",
+            "options": [
+              {
+                "label": "Rarely",
+                "value": {
+                  "input": {
+                    "text": "Rarely"
+                  }
+                }
+              },
+              {
+                "label": "Sometimes",
+                "value": {
+                  "input": {
+                    "text": "Sometimes"
+                  }
+                }
+              },
+              {
+                "label": "Almost everyday",
+                "value": {
+                  "input": {
+                    "text": "Almost everyday"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1595222287466",
+      "context": {
+        "sleeping": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_8_1595222666848"
+    },
+    {
+      "type": "folder",
+      "title": "Donor Covid Details",
+      "parent": "node_5_1595132558233",
+      "dialog_node": "node_8_1595041509219",
+      "previous_sibling": "node_2_1595041361249"
+    },
+    {
+      "type": "folder",
+      "title": "User Demographics",
+      "parent": "node_5_1595132558233",
+      "dialog_node": "node_2_1595041361249"
+    },
+    {
+      "type": "standard",
+      "title": "mentalQ5",
+      "output": {
+        "generic": [
+          {
+            "title": "Q5. How often have you been bothered by Poor appetite or overeating? ",
+            "options": [
+              {
+                "label": "Not at all",
+                "value": {
+                  "input": {
+                    "text": "Not at all"
+                  }
+                }
+              },
+              {
+                "label": "Several days",
+                "value": {
+                  "input": {
+                    "text": "Several days"
+                  }
+                }
+              },
+              {
+                "label": "More than half the days",
+                "value": {
+                  "input": {
+                    "text": "More than half the days"
+                  }
+                }
+              },
+              {
+                "label": "Nearly every day",
+                "value": {
+                  "input": {
+                    "text": "Nearly every day"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1594731745329",
+      "context": {
+        "A4": "@mentalHealthAnswer.literal",
+        "Q4": "How often have you been bothered by Feeling tired or having no energy?"
+      },
+      "conditions": "@mentalHealthAnswer",
+      "dialog_node": "node_10_1594731820160"
+    },
+    {
+      "type": "standard",
+      "title": "mentalQ7",
+      "output": {
+        "generic": [
+          {
+            "title": "Q7. How often have you been bothered by Trouble concentrating on things, such as reading the newspaper or watching television?",
+            "options": [
+              {
+                "label": "Not at all",
+                "value": {
+                  "input": {
+                    "text": "Not at all"
+                  }
+                }
+              },
+              {
+                "label": "Several days",
+                "value": {
+                  "input": {
+                    "text": "Several days"
+                  }
+                }
+              },
+              {
+                "label": "More than half the days",
+                "value": {
+                  "input": {
+                    "text": "More than half the days"
+                  }
+                }
+              },
+              {
+                "label": "Nearly every day",
+                "value": {
+                  "input": {
+                    "text": "Nearly every day"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1594731870911",
+      "context": {
+        "A6": "@mentalHealthAnswer.literal",
+        "Q6": "How often have you been bothered by Feeling bad about yourself or that you are a failure or have let yourself or your family down?"
+      },
+      "conditions": "@mentalHealthAnswer",
+      "dialog_node": "node_6_1594731913887"
+    },
+    {
+      "type": "standard",
+      "title": "How often do you have diarrhoea, gas or constipation?",
+      "output": {
+        "generic": [
+          {
+            "title": "How often do you have diarrhoea, gas or constipation?",
+            "options": [
+              {
+                "label": "Rarely",
+                "value": {
+                  "input": {
+                    "text": "Rarely"
+                  }
+                }
+              },
+              {
+                "label": "Sometimes",
+                "value": {
+                  "input": {
+                    "text": "Sometimes"
+                  }
+                }
+              },
+              {
+                "label": "Frequently",
+                "value": {
+                  "input": {
+                    "text": "Frequently"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1595153246462",
+      "context": {
+        "feel_hungry": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_4_1595169720002"
+    },
+    {
+      "type": "standard",
+      "title": "Do you have any body itch/allergies?",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have any body itch/allergies?",
+            "options": [
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              },
+              {
+                "label": "Sometimes",
+                "value": {
+                  "input": {
+                    "text": "Sometimes"
+                  }
+                }
+              },
+              {
+                "label": "Often",
+                "value": {
+                  "input": {
+                    "text": "Often"
+                  }
+                }
+              },
+              {
+                "label": "Severe",
+                "value": {
+                  "input": {
+                    "text": "Severe"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595244788000",
+      "context": {
+        "recover_flu": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_6_1595245142884"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1595042194853",
+      "variable": "$lab_test_reply",
+      "dialog_node": "slot_3_1595042264044",
+      "previous_sibling": "node_15_1595042669863"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Has it been at least 14 days since the last day of your symptoms (COVID-19 symptoms include fever, cough and shortness of breath)? ",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1595042194853",
+      "conditions": "@reply",
+      "dialog_node": "response_13_1595042194860",
+      "previous_sibling": "slot_3_1595042264044"
+    },
+    {
+      "type": "frame",
+      "title": "Follow up test done?",
+      "output": {},
+      "parent": "node_8_1595042194853",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply",
+      "dialog_node": "node_15_1595042669863"
+    },
+    {
+      "type": "standard",
+      "title": "Is Covid-19 confirmed by lab test?",
+      "output": {
+        "generic": [
+          {
+            "title": "Was your COVID-19 diagnosis confirmed by a lab test?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              },
+              {
+                "label": "Don't know",
+                "value": {
+                  "input": {
+                    "text": "unsure"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1595041509219",
+      "conditions": "",
+      "dialog_node": "node_2_1595041661416"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Is your name $person_name?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "correct donor name"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "incorrect donor name"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1594808794491",
+      "context": {
+        "person_name": "<? input.text ?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1594931237185",
+      "previous_sibling": "response_10_1595745409381"
+    },
+    {
+      "type": "frame",
+      "title": "Validate person name",
+      "parent": "node_8_1594808794491",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply || anything_else || #ExitFlow",
+      "dialog_node": "node_5_1594926306762",
+      "previous_sibling": "response_2_1594931237185"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1594808794491",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595693864026"
+      },
+      "conditions": "#ExitFlow",
+      "dialog_node": "response_10_1595745409381",
+      "previous_sibling": "response_8_1594924681599"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Is your name $person_name?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1594808794491",
+      "context": {
+        "person_name": "@person_name"
+      },
+      "conditions": "@person_name",
+      "dialog_node": "response_8_1594924681599"
+    },
+    {
+      "type": "standard",
+      "title": "prepareMentalHealthRequest",
+      "output": {
+        "generic": [
+          {
+            "title": "Thanks for answering all the questions. Do you want me to evaluate your mental health score?",
+            "options": [
+              {
+                "label": "yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "no",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1595542442768",
+      "context": {
+        "A12": "<? input.text ?>",
+        "Q12": "Tell us your name"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1595053017315"
+    },
+    {
+      "type": "frame",
+      "title": "Validate Date of Birth",
+      "output": {},
+      "parent": "node_8_1594810682413",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply && anything_else",
+      "dialog_node": "node_1_1594931621249",
+      "digress_out": "allow_all_never_return",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Get donor city",
+      "output": {
+        "generic": [
+          {
+            "title": "Should I save city as $city?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1595044274875",
+      "context": {
+        "city": "<? input.text ?>"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_10_1595044274899",
+      "previous_sibling": "response_15_1595044274899"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please re-enter your phone number."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1595044274875",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1595000370095"
+      },
+      "conditions": "@reply:no",
+      "dialog_node": "response_15_1595044274899",
+      "previous_sibling": "response_14_1595044274899"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. Please enter your city name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1595044274875",
+      "conditions": "@reply:yes",
+      "dialog_node": "response_14_1595044274899"
+    },
+    {
+      "type": "standard",
+      "title": "When do you usually feel hungry?",
+      "output": {
+        "generic": [
+          {
+            "title": "When do you usually feel hungry?",
+            "options": [
+              {
+                "label": "4 hrs after the previous meal",
+                "value": {
+                  "input": {
+                    "text": "4 hrs after the previous meal"
+                  }
+                }
+              },
+              {
+                "label": "Less than 3 hrs after the previous meal",
+                "value": {
+                  "input": {
+                    "text": "Less than 3 hrs after the previous meal"
+                  }
+                }
+              },
+              {
+                "label": "Do not feel hungry",
+                "value": {
+                  "input": {
+                    "text": "Do not feel hungry"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1595152786334",
+      "context": {
+        "pre_existing_cond": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_4_1595153246462"
+    },
+    {
+      "type": "folder",
+      "title": "Donor registration",
+      "parent": "node_7_1594808753363",
+      "dialog_node": "node_5_1595132558233"
+    },
+    {
+      "type": "standard",
+      "title": "Think carefully and select the activity that, if you performed, would typically cause fatigue, shortness of breath, chest discomfort, or otherwise cause you to want to stop",
+      "output": {
+        "generic": [
+          {
+            "title": "Think carefully and select the activity that, if you performed, would typically cause fatigue, shortness of breath, chest discomfort, or otherwise cause you to want to stop",
+            "options": [
+              {
+                "label": "After intensive workout for 30 mins or more",
+                "value": {
+                  "input": {
+                    "text": "After intensive workout for 30 mins or more"
+                  }
+                }
+              },
+              {
+                "label": "Jogging or 10 mins or walking uphill for 15 mins",
+                "value": {
+                  "input": {
+                    "text": "Jogging or 10 mins or walking uphill for 15 mins"
+                  }
+                }
+              },
+              {
+                "label": "Brisk walk or moderate mount of household work for 5 mins",
+                "value": {
+                  "input": {
+                    "text": "Brisk walk or moderate mount of household work for 5 mins"
+                  }
+                }
+              },
+              {
+                "label": "None",
+                "value": {
+                  "input": {
+                    "text": "None"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1595245638571",
+      "context": {
+        "use_antibiotic": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_8_1595246280763"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_20_1595042929173",
+      "variable": "$last_date_symptom",
+      "dialog_node": "slot_21_1595042929181",
+      "previous_sibling": "node_6_1595655908919"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Is your last date of symptom $last_date_symptom?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_20_1595042929173",
+      "context": {
+        "last_date_symptom": "@sys-date"
+      },
+      "conditions": "$last_date_symptom",
+      "dialog_node": "response_24_1595042929181",
+      "previous_sibling": "slot_21_1595042929181"
+    },
+    {
+      "type": "standard",
+      "title": "Get Blood Group",
+      "parent": "node_20_1595042929173",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply",
+      "dialog_node": "node_6_1595655908919"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your email id to continue."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1595000370095",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1595000370095",
+      "previous_sibling": "handler_4_1595000370095"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1595000370095",
+      "context": {
+        "email_id": "$email_id"
+      },
+      "conditions": "$email_id",
+      "event_name": "input",
+      "dialog_node": "handler_4_1595000370095"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your name to continue."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1594998869963",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1594998869971",
+      "previous_sibling": "handler_2_1594998869971"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1594998869963",
+      "context": {
+        "undefined": "$person_name"
+      },
+      "conditions": "$person_name",
+      "event_name": "input",
+      "dialog_node": "handler_2_1594998869971"
+    },
+    {
+      "type": "standard",
+      "title": "How long does it take for you to recover from flu or cold?",
+      "output": {
+        "generic": [
+          {
+            "title": "How long does it take for you to recover from flu or cold?",
+            "options": [
+              {
+                "label": "5 days",
+                "value": {
+                  "input": {
+                    "text": "5 days"
+                  }
+                }
+              },
+              {
+                "label": "7 days",
+                "value": {
+                  "input": {
+                    "text": "10 days"
+                  }
+                }
+              },
+              {
+                "label": "14 days",
+                "value": {
+                  "input": {
+                    "text": "14 days"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1595328062652",
+      "context": {
+        "cold_flu": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_10_1595244788000"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oops. Please try by re-entering your name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1594926306762",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1594808794491"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1594997356525",
+      "previous_sibling": "response_10_1595745863215"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1594926306762",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595693864026"
+      },
+      "conditions": "#ExitFlow",
+      "dialog_node": "response_10_1595745863215",
+      "previous_sibling": "response_1_1594926962254"
+    },
+    {
+      "type": "standard",
+      "title": "Get donor Date of Birth",
+      "output": {
+        "generic": [
+          {
+            "title": "So $person_name, is your date of birth $date_of_birth?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1594926306762",
+      "context": {
+        "date_of_birth": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "dialog_node": "node_8_1594810682413",
+      "digress_out": "allow_all_never_return",
+      "previous_sibling": "response_3_1594997356525"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oops. Please try by re-entering your name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1594926306762",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1594808794491"
+      },
+      "conditions": "@reply:no",
+      "dialog_node": "response_1_1594926962254",
+      "previous_sibling": "response_4_1594926937767"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks, I noted it down. Please provide your date of birth."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1594926306762",
+      "conditions": "@reply:yes",
+      "dialog_node": "response_4_1594926937767",
+      "previous_sibling": "slot_8_1594998869963"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1594926306762",
+      "dialog_node": "slot_8_1594998869963"
+    },
+    {
+      "type": "standard",
+      "title": "mentalQ6",
+      "output": {
+        "generic": [
+          {
+            "title": "Q6. How often have you been bothered by Feeling bad about yourself or that you are a failure or have let yourself or your family down? ",
+            "options": [
+              {
+                "label": "Not at all",
+                "value": {
+                  "input": {
+                    "text": "Not at all"
+                  }
+                }
+              },
+              {
+                "label": "Several days",
+                "value": {
+                  "input": {
+                    "text": "Several days"
+                  }
+                }
+              },
+              {
+                "label": "More than half the days",
+                "value": {
+                  "input": {
+                    "text": "More than half the days"
+                  }
+                }
+              },
+              {
+                "label": "Nearly every day",
+                "value": {
+                  "input": {
+                    "text": "Nearly every day"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1594731820160",
+      "context": {
+        "A5": "@mentalHealthAnswer.literal",
+        "Q5": "How often have you been bothered by Poor appetite or overeating?"
+      },
+      "conditions": "@mentalHealthAnswer",
+      "dialog_node": "node_5_1594731870911"
+    },
+    {
+      "type": "standard",
+      "title": "Do you check the immunity score?",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you want to check the immunity score?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1595246280763",
+      "context": {
+        "fatigue": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_7_1595246491503"
+    },
+    {
+      "type": "standard",
+      "title": "Do you still feel exhausted after getting enough sleep?",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you still feel exhausted after getting enough sleep?",
+            "options": [
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              },
+              {
+                "label": "On and Off",
+                "value": {
+                  "input": {
+                    "text": "On and off"
+                  }
+                }
+              },
+              {
+                "label": "Exhausted all the time",
+                "value": {
+                  "input": {
+                    "text": "Exhausted all the time"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1595222666848",
+      "context": {
+        "agitated": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_1_1595223246272"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_3_1595053408338",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1595155046401",
+      "previous_sibling": "response_9_1595155045358"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Be Happy",
+            "source": "https://cloud-object-storage-lv-cos-standard-cze.s3.jp-tok.cloud-object-storage.appdomain.cloud/greenEmoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1595053408338",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_9_1595155045358",
+      "previous_sibling": "response_7_1595155042380"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_1.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1595053408338",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_7_1595155042380"
+    },
+    {
+      "type": "standard",
+      "title": "Pre-existing condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have any pre-existing condition?",
+            "options": [
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              },
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "NA",
+                "value": {
+                  "input": {
+                    "text": "na"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1595689891506",
+      "context": {
+        "age": "@immunityReply"
+      },
+      "conditions": "@immunityReply",
+      "dialog_node": "node_2_1595152786334"
+    },
+    {
+      "type": "folder",
+      "title": "Immunity",
+      "dialog_node": "node_2_1595689396148",
+      "previous_sibling": "node_1_1595692013979"
+    },
+    {
+      "type": "folder",
+      "title": "Plasma Donor Service",
+      "dialog_node": "node_7_1594808753363",
+      "previous_sibling": "node_2_1595689396148"
+    },
+    {
+      "type": "folder",
+      "title": "Depression",
+      "dialog_node": "node_1_1595692013979",
+      "previous_sibling": "node_5_1595693864026"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "title": "Hi, please select how I can help you?",
+            "options": [
+              {
+                "label": "Check mental health",
+                "value": {
+                  "input": {
+                    "text": "Check mental health"
+                  }
+                }
+              },
+              {
+                "label": "Improve Immunity",
+                "value": {
+                  "input": {
+                    "text": "Improve Immunity"
+                  }
+                }
+              },
+              {
+                "label": "Donate plasma",
+                "value": {
+                  "input": {
+                    "text": "Donate plasma"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome || #ExitFlow || #greetings",
+      "dialog_node": "node_5_1595693864026"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "enabled": false,
+      "randomize": true,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above."
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": true,
+  "name": "High Flyers",
+  "language": "en",
+  "description": ""
+}
