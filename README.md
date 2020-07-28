@@ -1,13 +1,13 @@
 # IBM-Call-For-Code-High-Flyers:SHIELD
 
 # What's the problem?
-Over 6 months have passed after the first few Covid-19 cases had been identified  in China. Today coronavirus has become the singular most life-threatening disease for a significant portion of world population who are aged and suffering from other critical ailments. 
-Businesses across the globe are struggling due to the absence of customers and staff were as the same (customer and staff) are scared of catching the infection and staying at home. This is a classic deadlock situation which is plummeting economies, causing drastic layoffs, increased depression problems, and COVID-19 is going to continue for at least the next 2 quarters or maybe new few years till COVID-19 vaccine arrives in the market.  
-According to the WHOs website, ‘there are no specific vaccines or treatments for COVID-19’. Meanwhile, various existing medicines and clinical treatments are being tried as potential treatments for Covid-19. US Food and  
-Drug Administration in partnership with popular health organizations is collecting convalescent plasma from  
+* Over 6 months have passed after the first few Covid-19 cases had been identified  in China. Today coronavirus has become the singular most life-threatening disease for a significant portion of world population who are aged and suffering from other critical ailments. 
+* Businesses across the globe are struggling due to the absence of customers and staff were as the same (customer and staff) are scared of catching the infection and staying at home. This is a classic deadlock situation which is plummeting economies, causing drastic layoffs, increased depression problems, and COVID-19 is going to continue for at least the next 2 quarters or maybe new few years till COVID-19 vaccine arrives in the market.  
+* According to the WHOs website, ‘there are no specific vaccines or treatments for COVID-19’. Meanwhile, various existing medicines and clinical treatments are being tried as potential treatments for Covid-19. US Food and  
+* Drug Administration in partnership with popular health organizations is collecting convalescent plasma from  
 Covid-19 recovered patients to cure serious or immediately life-threatening COVID-19 infections, or those  
 judged by a health care provider to be at high risk of progression to severe or life-threatening disease.  
-According to them, ‘People who have fully recovered from COVID-19 have antibodies in their plasma that can attack the virus’. Today there is a lack of centralized system which will help to connect health organizations with potential plasma donors who have fully recovered from Covid-19 and help in the curing process. 
+* According to them, ‘People who have fully recovered from COVID-19 have antibodies in their plasma that can attack the virus’. Today there is a lack of centralized system which will help to connect health organizations with potential plasma donors who have fully recovered from Covid-19 and help in the curing process. 
 
 # The idea
 A comprehensive ChatBot solution SHIELD to help survive  the pandemic and also potentially help in the cure.  — 
