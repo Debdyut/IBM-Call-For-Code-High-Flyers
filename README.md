@@ -16,6 +16,9 @@ A comprehensive ChatBot solution SHIELD to help survive  the pandemic and also
 * Allows voluntary registration of plasma donors to the centralized registry accessible to medical and government departments. 
 * notifies plasma donors depending on the donation history, donor location etc. when requested by medical department. User accepting the request and confirming for donation will save 5 lives (each donation is enough to save 5 critical patient through plasma therapy). 
 
+
+[![watch](https://github.com/Debdyut/IBM-Call-For-Code-High-Flyers/blob/master/images/shield_video.png)](https://www.youtube.com/watch?v=PA25HBpPMac&feature=youtu.be)
+
 # Solution Architecture
 
 ![alt text](https://github.com/Debdyut/IBM-Call-For-Code-High-Flyers/blob/master/images/architecture.png)
