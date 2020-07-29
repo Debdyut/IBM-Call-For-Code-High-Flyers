@@ -51,8 +51,10 @@ A comprehensive ChatBot solution SHIELD to help survive  the pandemic and also
 5. **Deploy Immunity Service on IBM cloud**
 6. **Creating Cloud Functions**
 7. **Integrate data sources via a Watson Assistant webhook**
-8. **Run the server**
-9. **Run the mobile application**
+8. **Send email in node with SendGrid**
+9. **Implement Watson tone analyze**
+10. **Run the server**
+11. **Run the mobile application**
 
 ### 1. Set up an instance of Watson Assistant
    Log in to IBM Cloud and provision a Watson Assistant instance.
@@ -97,8 +99,28 @@ A comprehensive ChatBot solution SHIELD to help survive  the pandemic and also
    5. After selecting the dialog from which webhook will be called(Dialogs : 'Depression' -> 'callMentalHealthRest','immunity' -> 'yes','Plasma Donor Service' -> 'Save data to DB'), click on Customize.
    6. Enable Webhooks by moving the toggle button to On in the Webhooks section. Click Save.
    7. On the same node provide all the callout prameters and also capture the webhook response in the 'Assistant responds' section.
+   
+### 8. Send email in node with SendGrid
 
-### 8. Run the server
+   1. Follow the steps mentioned [here]( https://sendgrid.com/docs/for-developers/sending-email/quickstart-nodejs/)
+   2. Add the email send code in the webhook function.
+
+### 9. Implement Watson tone analyze
+
+   1. Add Watson Tone Analyzer service in your cloud account
+   2. To access the tone analyzer from your application, you need to create an Authorization key. To create that, you need to follow the below steps
+   
+   * Copy the Url from Watson Tone Analyzer along with the version. You will find the version from tone analyzer->getting started in your IBM account. The URL should looks like url+'/v3/tone?version=2017-09-21'.
+   * Open postman.
+   * Put the URL and choose the method type post.
+   * Choose the Basic Auth type from the Authorization tab.
+   * Put username as apikey, and the password should be the API key(taken from tone analyzer).
+   * Add Content-Type=application/json in headers tab.
+   * Add the body from the body tab like {"text": "YOUR_TEXT"}
+   * When you press the send button, you will find an authorization key that has generated under the header tab.
+   * Use the Authorization key and URL in the callToneAnalyze method in MntlHlthEvlnBo under the MntlHlthEvn application.
+
+### 10. Run the server
    To set up and launch the server application:
    1. Go to the IBM-Call-For-Code-High-Flyers/mobile-bff directory of the cloned repo.
    2. Copy the .env.example file in the IBM-Call-For-Code-High-Flyers/mobile-bff directory, and create a new file named .env.
@@ -117,7 +139,7 @@ A comprehensive ChatBot solution SHIELD to help survive  the pandemic and also
             * Push the app to IBM Cloud: ibmcloud app push.
             * The server can be accessed at a URL using the name given in the manifest.yml file (for example, https://my-app-name.bluemix.net).
 
-### 9. Run the mobile application
+### 11. Run the mobile application
    To run the mobile application (using the Xcode iOS Simulator or Android Studio Emulator):
    1. Go to the IBM-Call-For-Code-High-Flyers/mobile-app directory of the cloned repo.
    2. Copy the .env.example file in the IBM-Call-For-Code-High-Flyers/mobile-app directory, and create a file named .env.
