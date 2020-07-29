@@ -87,8 +87,9 @@ A comprehensive ChatBot solution SHIELD to help survive  the pandemic and also
    2. Click on Options on the left.
    3. Under Options > Webhooks, in the URL text box, paste the URL from the Cloud Funciton step. Make sure to add a .json at the end of the URL.
    4. Select Dialog on the left navigation.
-   5. After selecting the node, click Customize.
+   5. After selecting the node from which webhook will be called, click on Customize.
    6. Enable Webhooks by moving the toggle button to On in the Webhooks section. Click Save.
+   7. On the same node provide all the callout prameters and also capture the webhook response in the 'Assistant responds' section.
 
 ### 8. Run the server
    To set up and launch the server application:
