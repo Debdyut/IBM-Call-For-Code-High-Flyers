@@ -117,7 +117,7 @@ A comprehensive ChatBot solution SHIELD to help survive  the pandemic and also
       * Update the STARTER_KIT_SERVER_URL with the URL to the server app launched in the previous step.Note: If you are running the server locally and testing with the Android Emulator set the STARTER_KIT_SERVER_URL using the local machine's URL (e.g., http://10.0.2.2:3000) instead of localhost  
       * Update the HERE_APIKEY with the API key generated in the HERE Developer Portal.
    4. From a terminal:
-      * Go to the starter-kit/mobile-app directory.
+      * Go to the IBM-Call-For-Code-High-Flyers/mobile-app directory.
       * Install the dependencies: npm install.
       * iOS only: Go to the ios directory: cd ios.
       * iOS only: Install pod dependencies: pod install.
