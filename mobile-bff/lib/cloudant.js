@@ -83,13 +83,18 @@ const dbCloudantConnect = () => {
  *          could be located that matches. 
  *  reject(): the err object from the underlying data store
  */
-function find(location) {
+function find(location, bloodGroup) {
     return new Promise((resolve, reject) => {
-        let selector = {}        
+        let selector = {}
+        if (bloodGroup && bloodGroup != 'Any') {
+            let search = `(?i).*${bloodGroup}.*`;
+            selector['bloodGroup'] = {'$regex': search};
+        }        
         if (location) {
             let search = `(?i).*${location}.*`;
             selector['location'] = {'$regex': search};
-        }               
+        }             
+        console.log(selector)  
         db.find({ 
             'selector': selector
         }, (err, documents) => {

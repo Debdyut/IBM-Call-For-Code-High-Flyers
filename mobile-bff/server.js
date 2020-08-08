@@ -142,9 +142,10 @@ app.post('/api/message', (req, res) => {
  * A list of resource objects will be returned (which can be an empty list)
  */
 app.get('/api/resource', (req, res) => {  
+  const bloodGroup = req.query.bloodGroup;
   const location = req.query.location;  
   cloudant
-    .find(location)
+    .find(location, bloodGroup)
     .then(data => {
       if (data.statusCode != 200) {
         res.sendStatus(data.statusCode)
@@ -172,7 +173,7 @@ app.get('/api/resource', (req, res) => {
  * 
  * The ID and rev of the resource will be returned if successful
  */
-let types = ["Food", "Other", "Help"]
+let types = ["Any", "A+", "B+", "O+", "AB+", "A-", "B-", "AB-", "O-"]
 app.post('/api/resource', (req, res) => {
   if (!req.body.type) {
     return res.status(422).json({ errors: "Type of item must be provided"});

@@ -122,17 +122,17 @@ const SearchResources = function ({ route, navigation }) {
   return (
     <View style={styles.outerView}>
       <View style={styles.inputsView}>  
-      <Text style={styles.label}>Type</Text>
+      <Text style={styles.label}>Blood Group</Text>
         <PickerSelect
           style={{ inputIOS: styles.selector }}
           value={query.type}
           onValueChange={(t) => setQuery({ ...query, type: t })}
           items={[
               { label: 'Any', value: 'Any' },
-              { label: 'A+', value: 'A+' },
-              { label: 'B+', value: 'B+' },
-              { label: 'AB+', value: 'AB+' },
-              { label: 'O+', value: 'O+' },
+              { label: 'A+', value: 'A%2B' },
+              { label: 'B+', value: 'B%2B' },
+              { label: 'AB+', value: 'AB%2B' },
+              { label: 'O+', value: 'O%2B' },
               { label: 'A-', value: 'A-' },
               { label: 'B-', value: 'B-' },
               { label: 'AB-', value: 'AB-' },

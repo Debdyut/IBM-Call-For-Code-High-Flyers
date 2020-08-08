@@ -6,7 +6,6 @@ let serverUrl = Config.STARTER_KIT_SERVER_URL;
 if (serverUrl.endsWith('/')) {
   serverUrl = serverUrl.slice(0, -1)
 }
-// const serverUrl = 'http://localhost:3000';
 
 const uniqueid = DeviceInfo.getUniqueId();
 
@@ -15,9 +14,10 @@ export const userID = () => {
 }
 
 export const search = (query) => {  
+  const bloodGroup = query.type ? `bloodGroup=${query.type}` : ''
   const location = query.location ? `location=${query.location}` : ''
 
-  return fetch(`${serverUrl}/api/resource?${location}`, {
+  return fetch(`${serverUrl}/api/resource?${location}&${bloodGroup}`, {
     method: 'GET',
     mode: 'no-cors',
     cache: 'no-cache',
